@@ -1,0 +1,56 @@
+body{
+    background-image: linear-gradient(45deg,rgb(20, 22, 21),rgb(13, 95, 50));
+}
+#setClock{
+    height: 150px;
+    border: 5px,solid,rgb(126,124,124);
+    align-items: center;
+    background-image: linear-gradient(180deg,rgb(63,59,59),rgb(4, 18, 8));
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+@media (min-width:576px) {
+    #setClock{
+        font-size: 7vw;
+    }
+}
+@media (max-width:576px) {
+    #setClock{
+        font-size: 10vw;
+    }
+}
+.clock{
+    margin-top: 12%;
+
+}
+#setAlarm{
+    margin-top: 5%;
+    font-size: 20px;
+}
+#submitAlarm{
+    background-color: green;
+}
+.AlarmList{
+    margin-top: 5%;
+    text-align: left;
+    margin-left: 200px;
+}
+.timeEl{
+    margin: 3%;
+    align-self: flex-start;
+    color: aliceblue;
+}
+.delete-btn{
+    margin: 1%;
+    color: black;
+    background-color: red;
+    border: 1px solid black;
+}
+#list{
+    display: none;
+    color: aliceblue;
+}
+#noAlarms{
+    color: aliceblue;
+}
