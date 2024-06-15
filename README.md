@@ -1,7 +1,7 @@
 <h1>Alarm clock project</h1>
-</br>
+
 <h3>Overview </h3>
-</br>
+
 <p.>This ia an interactive alarm clcok web application built using HTML,CSS and Javascript. Users can set alarms which will trigger alerts at same time.</p.>
 
 <h3>Features</h3>
